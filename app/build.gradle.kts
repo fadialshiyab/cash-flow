@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.sheyab.cashflow"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.sheyab.cashflow"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.4"
 
@@ -65,12 +65,10 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.1")
     ksp("androidx.room:room-compiler:2.6.1")
     
-    // Google Play Services Auth / Drive for AppData sync
+    // Google Play Services Auth
     implementation("com.google.android.gms:play-services-auth:21.2.0")
-    implementation("com.google.api-client:google-api-client-android:2.6.0")
-    implementation("com.google.apis:google-api-services-drive:v3-rev20240530-2.0.0")
     
-    // Serialization & Utilities
+    // Serialization & Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
     implementation("com.google.code.gson:gson:2.11.0")
     
