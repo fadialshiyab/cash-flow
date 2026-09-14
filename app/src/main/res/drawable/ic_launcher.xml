@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="135"
+                android:endColor="#06B6D4"
+                android:startColor="#3B82F6"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <!-- Stylized Dollar / Chart glyph -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28c-14.36,0 -26,11.64 -26,26s11.64,26 26,26 26,-11.64 26,-26 -11.64,-26 -26,-26zM56,66h-4v-3.08c-4.48,-0.57 -8.2,-3.39 -8.76,-7.92h5.12c0.44,2.23 2.24,3.75 4.88,3.75 2.89,0 4.62,-1.72 4.62,-3.72 0,-2.32 -1.78,-3.45 -5.87,-4.43 -5.92,-1.42 -8.5,-3.75 -8.5,-7.7 0,-3.77 2.92,-6.69 7.51,-7.32V32h4v3.08c3.9,0.57 6.94,3.01 7.58,6.92h-5.06c-0.49,-1.84 -2.03,-3.11 -4.27,-3.11 -2.57,0 -4.27,1.48 -4.27,3.42 0,2.15 1.78,3.19 5.87,4.19 6.09,1.48 8.5,3.95 8.5,7.94 0,4.04 -3.06,7.03 -7.35,7.56V66z" />
+</vector>
